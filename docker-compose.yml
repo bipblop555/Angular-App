@@ -1,0 +1,12 @@
+version: "3.3"
+services:
+  node:
+    restart: always
+    build: .
+    image: node
+    container_name: Angular-front
+    ports:
+      - 3000:3000
+    volumes:
+      - ./app:/home/node/app
+    command: /scripts/script.sh
