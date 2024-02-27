@@ -1,3 +1,5 @@
+Le projet angular provient de la documentation Angular
+
 1. Je créé un directory : 
 
     Je conserve les lignes ci dessous de mon script : 
